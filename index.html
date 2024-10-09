@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>News App</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <a href="index.html"><p class="logo">News App</p></a>
+        <p class="quotes">
+          <span>"</span> We cannot make good news out of bad practice<span
+            >"</span
+          >
+        </p>
+      </div>
+    </header>
+
+    <main class="main wrapper">
+      <section class="search-bar">
+        <form class="form-control">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search topics..."
+          />
+          <button type="submit" class="submit-btn">
+            <img src="assets/search-icon.svg" alt="search-icon" />
+          </button>
+        </form>
+      </section>
+
+      <section class="search-result">
+        <h1 class="title-bar">Headline News</h1>
+        <div class="loader"></div>
+        <div class="result-container"></div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
